@@ -18,5 +18,8 @@ export const StyledTitle = styled.h1`
   mix-blend-mode: overlay;
   text-align: center;
   padding-top: 50px;
-  text-stroke: 2px black;
+`;
+
+export const StyledProjectsWrap = styled.div`
+  display: flex;
 `;
