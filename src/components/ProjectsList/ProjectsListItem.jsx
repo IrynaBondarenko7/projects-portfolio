@@ -6,7 +6,6 @@ import {
   StyledDescriptionWrap,
   StyledGitHubLink,
   StyledLinksWrap,
-  StyledListItem,
   StyledLivePageLink,
   StyledTechnologiesList,
   StyledTechnologyItem,

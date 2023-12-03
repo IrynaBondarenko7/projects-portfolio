@@ -46,6 +46,7 @@ export const StyledDescriptionBtn = styled.button`
   border-top-right-radius: 15px;
   margin-right: 10px;
   height: 40px;
+  color: #212121;
 `;
 
 export const StyledDescriptionWrap = styled.div`

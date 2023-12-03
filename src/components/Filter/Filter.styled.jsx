@@ -11,5 +11,11 @@ export const StyledFilterWrap = styled.div`
 `;
 
 export const StyledSelect = styled(Select)`
-  width: 500px;
+  @media screen and (min-width: 360px) {
+    width: 300px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    width: 500px;
+  }
 `;
