@@ -46,3 +46,8 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+.css-13cymwt-control {
+  background-color: transparent !important;
+  height: 50px !important;
+}

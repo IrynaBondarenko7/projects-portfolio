@@ -46,7 +46,7 @@ export const teamProjects = [
       "Restaurant/hotel complex website with responsive layout. Functions: room reservation modal window, buttons animation, room page (amenities in the room).",
     technologies: [
       "HTML",
-      "SCSS",
+      "SASS",
       "JavaScript",
       "Parcel",
       "Swiper",

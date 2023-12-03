@@ -21,7 +21,7 @@ export const ProjectsListItem = ({ project }) => {
     setIsVisible(!isVisible);
   };
   return (
-    <StyledListItem key={project.id}>
+    <li>
       <StyledLinksWrap>
         <StyledGitHubLink
           href={project.gihhubLink}
@@ -61,6 +61,6 @@ export const ProjectsListItem = ({ project }) => {
           </StyledDescriptionWrap>
         </div>
       )}
-    </StyledListItem>
+    </li>
   );
 };

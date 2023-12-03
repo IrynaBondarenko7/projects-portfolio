@@ -17,7 +17,7 @@ export const StyledTitle = styled.h1`
   text-transform: uppercase;
   mix-blend-mode: overlay;
   text-align: center;
-  padding-top: 50px;
+  padding-top: 70px;
 `;
 
 export const StyledProjectsWrap = styled.div`

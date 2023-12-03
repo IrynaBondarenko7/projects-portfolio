@@ -6,8 +6,6 @@ export const StyledProjectsListWrap = styled.div`
   align-items: center;
 `;
 
-export const StyledListItem = styled.li``;
-
 export const StyledLinksWrap = styled.div`
   display: flex;
   align-items: center;
