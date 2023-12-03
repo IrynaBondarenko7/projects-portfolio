@@ -6,7 +6,10 @@ export const teamProjects = [
     description:
       "Full Stack app with user registration. Functions: The registered user has access to the account page, where user can edit the profile, to the calendar page, add tasks for any day of the week, and the statistics page, where it is possible to view the completion of tasks. There is also an opportunity to leave a review in the app.",
     technologies: [
-      "React (Hooks, Routers, Redux Toolkit)",
+      "React",
+      "Hooks ",
+      "Routers",
+      "Redux Toolkit",
       "Webpack",
       "Node.js",
       "express",
@@ -60,7 +63,7 @@ export const individualProjects = [
     livePageLink: "https://irynabondarenko7.github.io/Phonebook/",
     description:
       "A simple phonebook connected to Swagger backend API. Functions: You can register, log in, log out, add, remove or filter contacts. ",
-    technologies: ["React Hooks", "Routers", "Redux Toolkit", "Chakra UI"],
+    technologies: ["React", "Hooks", "Routers", "Redux Toolkit", "Chakra UI"],
     id: 4,
   },
   {

@@ -12,7 +12,7 @@ export const StyledContainer = styled.div`
 `;
 
 export const StyledTitle = styled.h1`
-  font-size: 100px;
+  font-size: 90px;
   color: white;
   text-transform: uppercase;
   mix-blend-mode: overlay;
@@ -22,4 +22,12 @@ export const StyledTitle = styled.h1`
 
 export const StyledProjectsWrap = styled.div`
   display: flex;
+  margin-top: 50px;
+`;
+
+export const StyledProjectsTitle = styled.p`
+  font-size: 25px;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 20px;
 `;
