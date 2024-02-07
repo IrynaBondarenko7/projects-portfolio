@@ -15,6 +15,7 @@ export const teamProjects = [
       "express",
       "MongoDB",
       "Styled components",
+      "REST API",
     ],
     id: 1,
   },
@@ -63,7 +64,16 @@ export const individualProjects = [
     livePageLink: "https://irynabondarenko7.github.io/Phonebook/",
     description:
       "A simple phonebook connected to Swagger backend API. Functions: You can register, log in, log out, add, remove or filter contacts. ",
-    technologies: ["React", "Hooks", "Routers", "Redux Toolkit", "Chakra UI"],
+    technologies: [
+      "React",
+      "Hooks",
+      "Routers",
+      "Redux Toolkit",
+      "Chakra UI",
+      "Formik",
+      "Yup",
+      "REST API",
+    ],
     id: 4,
   },
   {
@@ -91,5 +101,22 @@ export const individualProjects = [
       "Massage Therapist portfolio with 4 section. Functions: there is a Book Appointment button on the homepage that opens a modal window with a feedback form. You can also view procedures and materials.",
     technologies: ["HTML", "SASS", "JavaScript", "Parcel", "AOS", "Formspree"],
     id: 7,
+  },
+  {
+    name: "Сonfetti",
+    gihhubLink: "https://github.com/IrynaBondarenko7/confetti",
+    livePageLink: "https://balloons-shop-confetti.netlify.app/",
+    description:
+      "Confetti Store Landing Page, a React-based landing page for a balloon shop. This landing page incorporates various features and functionalities to create an engaging and responsive user experience. The responsive layout spans from mobile (360px to 480px) with a flexible design, to tablet (768px), and desktop (1280px)",
+    technologies: [
+      "React",
+      "Hooks",
+      "Styled components",
+      "Swiper",
+      "Formik",
+      "Yup",
+      "React-responsive",
+    ],
+    id: 8,
   },
 ];
