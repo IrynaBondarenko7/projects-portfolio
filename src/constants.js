@@ -55,6 +55,18 @@ export const teamProjects = [
     ],
     id: 3,
   },
+  {
+    name: "Front End Dev portfolio",
+    gihhubLink: "https://github.com/IrynaBondarenko7/front-end-dev-portfolio",
+    livePageLink: "https://irynabondarenko7.github.io/front-end-dev-portfolio/",
+    description:
+      "Three-page website with responsive design. Created with HTML, CSS",
+    technologies: [
+      "HTML",
+      "CSS",
+    ],
+    id: 9,
+  },
 ];
 
 export const individualProjects = [
