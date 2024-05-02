@@ -1,4 +1,51 @@
+import { v4 as uuidv4 } from "uuid";
+
 export const teamProjects = [
+  {
+    name: "Career consultant web site",
+    gihhubLink: "https://github.com/SoftRyzen-internship/career-consultant",
+    livePageLink: "https://career-consultant.vercel.app/",
+    description:
+      "Career consultant is a web application aimed at career counseling for Ukrainians who want to receive a clear action plan, practical tools, and support. Website consists from 2 pages: Main & Privacy Policy.The layout is responsive and cross-browser compatible - mobile starts from 360px, tablet from 768px, desktop from 1280px. The layout from 360px to 480px is fluid (stretchable). Used mobile-first approach.",
+    technologies: [
+      "Next.js",
+      "Sanity",
+      "TypeScript",
+      "Tailwindcss",
+      "Headless CMS",
+      "Swiper",
+      "react-scroll",
+      "react-hook-form",
+      "svgr",
+      "classnames",
+      "GROQ",
+      "Yup",
+    ],
+    id: uuidv4(),
+  },
+  {
+    name: "Flora Decor Store",
+    gihhubLink: "https://github.com/SoftRyzen-internship/flora-decor",
+    livePageLink: "https://flora-decor.vercel.app/",
+    description:
+      "The web application Flora Decor was created for a Ukrainian indoor plant store. The website features a responsive design that adjusts to various screen sizes, including mobile phones (from 360px to 480px), tablets (768px), and desktops (1440px). All images on the website have support for Retina displays, ensuring high-quality visuals for users with high-resolution screens.The goods section and reviews have the capability to be edited through the admin panel in Sanity CMS.",
+    technologies: [
+      "Next.js",
+      "Sanity",
+      "TypeScript",
+      "Tailwindcss",
+      "Headless CMS",
+      "Swiper",
+      "react-scroll",
+      "react-hook-form",
+      "svgr",
+      "classnames",
+      "GROQ",
+      "react-responsive",
+      "Yup",
+    ],
+    id: uuidv4(),
+  },
   {
     name: "Goose Track",
     gihhubLink: "https://github.com/svrphoenix/project-group3fe",
@@ -17,7 +64,7 @@ export const teamProjects = [
       "Styled components",
       "REST API",
     ],
-    id: 1,
+    id: uuidv4(),
   },
   {
     name: "Filmoteka",
@@ -37,7 +84,7 @@ export const teamProjects = [
       "Basiclightbox",
       "Notiflix",
     ],
-    id: 2,
+    id: uuidv4(),
   },
   {
     name: "Hotel complex Mimino",
@@ -53,7 +100,7 @@ export const teamProjects = [
       "Swiper",
       "Animate.css.",
     ],
-    id: 3,
+    id: uuidv4(),
   },
   {
     name: "Front End Dev portfolio",
@@ -61,58 +108,28 @@ export const teamProjects = [
     livePageLink: "https://irynabondarenko7.github.io/front-end-dev-portfolio/",
     description:
       "Three-page website with responsive design. Created with HTML, CSS",
-    technologies: [
-      "HTML",
-      "CSS",
-    ],
-    id: 9,
+    technologies: ["HTML", "CSS"],
+    id: uuidv4(),
   },
 ];
 
 export const individualProjects = [
   {
-    name: "Phonebook",
-    gihhubLink: "https://github.com/IrynaBondarenko7/Phonebook",
-    livePageLink: "https://irynabondarenko7.github.io/Phonebook/",
+    name: "CarpTravel - Adventure Travel Website",
+    gihhubLink: "https://github.com/IrynaBondarenko7/carp-travel",
+    livePageLink: "https://carp-travel-alpha.vercel.app/",
     description:
-      "A simple phonebook connected to Swagger backend API. Functions: You can register, log in, log out, add, remove or filter contacts. ",
+      "CarpTravel, your go-to platform for thrilling adventures in the Carpathian Mountains. Whether you're into rock climbing, hot air ballooning, skydiving, rafting, or ATVS Traveling has got you covered. Explore the adrenaline-packed experiences waiting for you in the heart of nature. Adaptive and cross-browser responsive design, mobile starts from 360px, tablet from 768px, desktop from 1280px",
     technologies: [
       "React",
       "Hooks",
-      "Routers",
-      "Redux Toolkit",
-      "Chakra UI",
+      "Styled components",
+      "Swiper",
       "Formik",
       "Yup",
-      "REST API",
+      "React-responsive",
     ],
-    id: 4,
-  },
-  {
-    name: "English test",
-    gihhubLink: "https://github.com/IrynaBondarenko7/english-test",
-    livePageLink: "https://irynabondarenko7.github.io/english-test/",
-    description:
-      "Quick English quiz with adaptive design. Functions: You receive points at the end of the test and have the opportunity to take the test again",
-    technologies: ["HTML", "LESS", "JavaScript", "Parcel"],
-    id: 5,
-  },
-  {
-    name: "Barbershop",
-    gihhubLink: "https://github.com/IrynaBondarenko7/barbershop",
-    livePageLink: "https://irynabondarenko7.github.io/barbershop/",
-    description: "A website with a responsive layout.",
-    technologies: ["HTML", "SASS", "JavaScript", "Parcel"],
-    id: 6,
-  },
-  {
-    name: "Masseur website",
-    gihhubLink: "https://github.com/IrynaBondarenko7/masseur_website",
-    livePageLink: "https://massage-therapist-kyiv.netlify.app/",
-    description:
-      "Massage Therapist portfolio with 4 section. Functions: there is a Book Appointment button on the homepage that opens a modal window with a feedback form. You can also view procedures and materials.",
-    technologies: ["HTML", "SASS", "JavaScript", "Parcel", "AOS", "Formspree"],
-    id: 7,
+    id: uuidv4(),
   },
   {
     name: "Сonfetti",
@@ -129,6 +146,50 @@ export const individualProjects = [
       "Yup",
       "React-responsive",
     ],
-    id: 8,
+    id: uuidv4(),
+  },
+  {
+    name: "Phonebook",
+    gihhubLink: "https://github.com/IrynaBondarenko7/Phonebook",
+    livePageLink: "https://irynabondarenko7.github.io/Phonebook/",
+    description:
+      "A simple phonebook connected to Swagger backend API. Functions: You can register, log in, log out, add, remove or filter contacts. ",
+    technologies: [
+      "React",
+      "Hooks",
+      "Routers",
+      "Redux Toolkit",
+      "Chakra UI",
+      "Formik",
+      "Yup",
+      "REST API",
+    ],
+    id: uuidv4(),
+  },
+  {
+    name: "English test",
+    gihhubLink: "https://github.com/IrynaBondarenko7/english-test",
+    livePageLink: "https://irynabondarenko7.github.io/english-test/",
+    description:
+      "Quick English quiz with adaptive design. Functions: You receive points at the end of the test and have the opportunity to take the test again",
+    technologies: ["HTML", "LESS", "JavaScript", "Parcel"],
+    id: uuidv4(),
+  },
+  {
+    name: "Barbershop",
+    gihhubLink: "https://github.com/IrynaBondarenko7/barbershop",
+    livePageLink: "https://irynabondarenko7.github.io/barbershop/",
+    description: "A website with a responsive layout.",
+    technologies: ["HTML", "SASS", "JavaScript", "Parcel"],
+    id: uuidv4(),
+  },
+  {
+    name: "Masseur website",
+    gihhubLink: "https://github.com/IrynaBondarenko7/masseur_website",
+    livePageLink: "https://massage-therapist-kyiv.netlify.app/",
+    description:
+      "Massage Therapist portfolio with 4 section. Functions: there is a Book Appointment button on the homepage that opens a modal window with a feedback form. You can also view procedures and materials.",
+    technologies: ["HTML", "SASS", "JavaScript", "Parcel", "AOS", "Formspree"],
+    id: uuidv4(),
   },
 ];

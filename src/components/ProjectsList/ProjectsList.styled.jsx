@@ -26,6 +26,12 @@ export const StyledGitHubLink = styled.a`
   border-bottom-left-radius: 15px;
   border-top-left-radius: 15px;
   height: 40px;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
+  &:hover {
+    background-color: #d6dbdf;
+  }
 `;
 
 export const StyledLivePageLink = styled.a`
@@ -37,8 +43,15 @@ export const StyledLivePageLink = styled.a`
   height: 40px;
   text-align: center;
   color: #5d6d7e;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
+  &:hover {
+    color: #f2f3f4;
+    background-color: #85929e;
+  }
 `;
 
 export const StyledDescriptionBtn = styled.button`
@@ -47,6 +60,12 @@ export const StyledDescriptionBtn = styled.button`
   margin-right: 10px;
   height: 40px;
   color: #212121;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
+  &:hover {
+    background-color: #d6dbdf;
+  }
 `;
 
 export const StyledDescriptionWrap = styled.div`

@@ -8,7 +8,7 @@ export const StyledContainer = styled.div`
   margin: 0 auto;
   background-size: cover;
   background-repeat: no-repeat;
-  @media screen and (min-width: 360px) {
+  @media screen and (min-width: 320px) {
     width: 400px;
     height: 400px;
   }
@@ -36,7 +36,7 @@ export const StyledTitle = styled.h1`
 export const StyledProjectsWrap = styled.div`
   display: flex;
   margin-top: 50px;
-  @media screen and (min-width: 360px) {
+  @media screen and (min-width: 320px) {
     flex-direction: column;
   }
 
