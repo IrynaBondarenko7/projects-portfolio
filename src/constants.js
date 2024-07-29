@@ -4,7 +4,7 @@ export const teamProjects = [
   {
     name: "Career consultant web site",
     gihhubLink: "https://github.com/SoftRyzen-internship/career-consultant",
-    livePageLink: "https://career-consultant.vercel.app/",
+    livePageLink: "https://career-consultations.vercel.app/",
     description:
       "Career consultant is a web application aimed at career counseling for Ukrainians who want to receive a clear action plan, practical tools, and support. Website consists from 2 pages: Main & Privacy Policy.The layout is responsive and cross-browser compatible - mobile starts from 360px, tablet from 768px, desktop from 1280px. The layout from 360px to 480px is fluid (stretchable). Used mobile-first approach.",
     technologies: [
