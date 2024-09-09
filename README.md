@@ -30,17 +30,19 @@ To run the application locally, follow these steps:
 ## Folder Structure
 
 The project follows a structured organization:
-projects-portfolio/
-|-- src/
-| |-- components/
-| |-- images/
-| |-- App.jsx
-| |-- index.js
-| |-- index.css
-| |-- constans.js
-|-- public/
-|-- ...
+
+```
+├── public
+└── src
+    ├── App.js
+    ├── components
+    ├── constants.js
+    ├── images
+    ├── index.css
+    └── index.js
+
+```
+
 ## Acknowledgments
 
 Thank you for your interest in Projects Portfolio. I hope you find the portfolio informative and visually appealing!
-
