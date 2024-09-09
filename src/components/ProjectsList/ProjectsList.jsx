@@ -1,18 +1,18 @@
 import { ProjectsListItem } from "./ProjectsListItem";
 
 export const ProjectsList = ({ projects, filter }) => {
-  let filtredProjects;
+  let filteredProjects;
   if (filter !== "") {
-    filtredProjects = projects.filter((project) =>
+    filteredProjects = projects.filter((project) =>
       project.technologies.includes(filter)
     );
   } else {
-    filtredProjects = projects;
+    filteredProjects = projects;
   }
 
   return (
     <ul>
-      {filtredProjects.map((project) => {
+      {filteredProjects.map((project) => {
         return <ProjectsListItem key={project.id} project={project} />;
       })}
     </ul>

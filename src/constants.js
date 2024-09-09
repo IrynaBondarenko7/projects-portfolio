@@ -3,7 +3,7 @@ import { v4 as uuidv4 } from "uuid";
 export const teamProjects = [
   {
     name: "Career consultant web site",
-    gihhubLink: "https://github.com/SoftRyzen-internship/career-consultant",
+    gitHubLink: "https://github.com/SoftRyzen-internship/career-consultant",
     livePageLink: "https://career-consultations.vercel.app/",
     description:
       "Career consultant is a web application aimed at career counseling for Ukrainians who want to receive a clear action plan, practical tools, and support. Website consists from 2 pages: Main & Privacy Policy.The layout is responsive and cross-browser compatible - mobile starts from 360px, tablet from 768px, desktop from 1280px. The layout from 360px to 480px is fluid (stretchable). Used mobile-first approach.",
@@ -25,7 +25,7 @@ export const teamProjects = [
   },
   {
     name: "Flora Decor Store",
-    gihhubLink: "https://github.com/SoftRyzen-internship/flora-decor",
+    gitHubLink: "https://github.com/SoftRyzen-internship/flora-decor",
     livePageLink: "https://flora-decor.vercel.app/",
     description:
       "The web application Flora Decor was created for a Ukrainian indoor plant store. The website features a responsive design that adjusts to various screen sizes, including mobile phones (from 360px to 480px), tablets (768px), and desktops (1440px). All images on the website have support for Retina displays, ensuring high-quality visuals for users with high-resolution screens.The goods section and reviews have the capability to be edited through the admin panel in Sanity CMS.",
@@ -48,7 +48,7 @@ export const teamProjects = [
   },
   {
     name: "Goose Track",
-    gihhubLink: "https://github.com/svrphoenix/project-group3fe",
+    gitHubLink: "https://github.com/svrphoenix/project-group3fe",
     livePageLink: "https://svrphoenix.github.io/project-group3fe/",
     description:
       "Full Stack app with user registration. Functions: The registered user has access to the account page, where user can edit the profile, to the calendar page, add tasks for any day of the week, and the statistics page, where it is possible to view the completion of tasks. There is also an opportunity to leave a review in the app.",
@@ -59,7 +59,7 @@ export const teamProjects = [
       "Redux Toolkit",
       "Webpack",
       "Node.js",
-      "express",
+      "express.js",
       "MongoDB",
       "Styled components",
       "REST API",
@@ -68,7 +68,7 @@ export const teamProjects = [
   },
   {
     name: "Filmoteka",
-    gihhubLink: "https://github.com/dmitryberesten/filmoteka",
+    gitHubLink: "https://github.com/dmitryberesten/filmoteka",
     livePageLink: "https://dmitryberesten.github.io/filmoteka/",
     description:
       "Application for choosing a movie and saving in library. Functions: add to watched, add to queue buttons and saving to local storage.",
@@ -88,7 +88,7 @@ export const teamProjects = [
   },
   {
     name: "Hotel complex Mimino",
-    gihhubLink: "https://github.com/yulka-pulka/team5-mimino",
+    gitHubLink: "https://github.com/yulka-pulka/team5-mimino",
     livePageLink: "https://yulka-pulka.github.io/team5-mimino/",
     description:
       "Restaurant/hotel complex website with responsive layout. Functions: room reservation modal window, buttons animation, room page (amenities in the room).",
@@ -104,7 +104,7 @@ export const teamProjects = [
   },
   {
     name: "Front End Dev portfolio",
-    gihhubLink: "https://github.com/IrynaBondarenko7/front-end-dev-portfolio",
+    gitHubLink: "https://github.com/IrynaBondarenko7/front-end-dev-portfolio",
     livePageLink: "https://irynabondarenko7.github.io/front-end-dev-portfolio/",
     description:
       "Three-page website with responsive design. Created with HTML, CSS",
@@ -115,8 +115,26 @@ export const teamProjects = [
 
 export const individualProjects = [
   {
+    name: "News API",
+    gitHubLink: "https://github.com/IrynaBondarenko7/news_API",
+    livePageLink: "https://news-api-4de7.onrender.com/",
+    description:
+      "A backend API that provides news data to a front-end client. Configured to work in different environments (development, testing, etc.). The /api endpoint serves as a representation of all the available endpoints of the api.",
+    technologies: [
+      "Node.js",
+      "express.js",
+      "PostgreSQL",
+      "node - postgres",
+      "dotenv",
+      "pg - format",
+      "jest",
+      "supertest",
+    ],
+    id: uuidv4(),
+  },
+  {
     name: "CarpTravel - Adventure Travel Website",
-    gihhubLink: "https://github.com/IrynaBondarenko7/carp-travel",
+    gitHubLink: "https://github.com/IrynaBondarenko7/carp-travel",
     livePageLink: "https://carp-travel-alpha.vercel.app/",
     description:
       "CarpTravel, your go-to platform for thrilling adventures in the Carpathian Mountains. Whether you're into rock climbing, hot air ballooning, skydiving, rafting, or ATVS Traveling has got you covered. Explore the adrenaline-packed experiences waiting for you in the heart of nature. Adaptive and cross-browser responsive design, mobile starts from 360px, tablet from 768px, desktop from 1280px",
@@ -133,7 +151,7 @@ export const individualProjects = [
   },
   {
     name: "Сonfetti",
-    gihhubLink: "https://github.com/IrynaBondarenko7/confetti",
+    gitHubLink: "https://github.com/IrynaBondarenko7/confetti",
     livePageLink: "https://balloons-shop-confetti.netlify.app/",
     description:
       "Confetti Store Landing Page, a React-based landing page for a balloon shop. This landing page incorporates various features and functionalities to create an engaging and responsive user experience. The responsive layout spans from mobile (360px to 480px) with a flexible design, to tablet (768px), and desktop (1280px)",
@@ -150,7 +168,7 @@ export const individualProjects = [
   },
   {
     name: "Phonebook",
-    gihhubLink: "https://github.com/IrynaBondarenko7/Phonebook",
+    gitHubLink: "https://github.com/IrynaBondarenko7/Phonebook",
     livePageLink: "https://irynabondarenko7.github.io/Phonebook/",
     description:
       "A simple phonebook connected to Swagger backend API. Functions: You can register, log in, log out, add, remove or filter contacts. ",
@@ -168,7 +186,7 @@ export const individualProjects = [
   },
   {
     name: "English test",
-    gihhubLink: "https://github.com/IrynaBondarenko7/english-test",
+    gitHubLink: "https://github.com/IrynaBondarenko7/english-test",
     livePageLink: "https://irynabondarenko7.github.io/english-test/",
     description:
       "Quick English quiz with adaptive design. Functions: You receive points at the end of the test and have the opportunity to take the test again",
@@ -177,7 +195,7 @@ export const individualProjects = [
   },
   {
     name: "Barbershop",
-    gihhubLink: "https://github.com/IrynaBondarenko7/barbershop",
+    gitHubLink: "https://github.com/IrynaBondarenko7/barbershop",
     livePageLink: "https://irynabondarenko7.github.io/barbershop/",
     description: "A website with a responsive layout.",
     technologies: ["HTML", "SASS", "JavaScript", "Parcel"],
@@ -185,7 +203,7 @@ export const individualProjects = [
   },
   {
     name: "Masseur website",
-    gihhubLink: "https://github.com/IrynaBondarenko7/masseur_website",
+    gitHubLink: "https://github.com/IrynaBondarenko7/masseur_website",
     livePageLink: "https://massage-therapist-kyiv.netlify.app/",
     description:
       "Massage Therapist portfolio with 4 section. Functions: there is a Book Appointment button on the homepage that opens a modal window with a feedback form. You can also view procedures and materials.",

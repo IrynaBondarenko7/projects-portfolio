@@ -23,7 +23,7 @@ export const ProjectsListItem = ({ project }) => {
     <li>
       <StyledLinksWrap>
         <StyledGitHubLink
-          href={project.gihhubLink}
+          href={project.gitHubLink}
           target="_blank"
           rel="noopener noreferrer"
         >
